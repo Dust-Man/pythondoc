@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+   font-family: "Nunito", sans-serif;
+    margin: 0;
+  width: 0;
+  background-color: #39375B;
+  color: #fff;
+}
+
+main{
+  position: absolute;
+  margin-left: 300px;
+  margin-bottom:110px;
+  padding: 2rem;
+} 
+
+main header, nav header{
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #F4D35E;
+  margin-top: 1em;
+}
+
+main header:first-of-type{
+  margin-top: 10px;
+}
+
+nav header{
+  text-align: center;
+}
+
+nav{
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  border-right: solid #0002 2px;
+}
+
+nav ul{
+  padding-left: 10px;
+  height: 88%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+  position: relative;
+}
+
+nav li{
+  border-top: solid #0002 2px;
+  list-style: none;
+  padding: 1em 0 1em 0.5em;
+  width: 100%;
+  position:relative;
+  
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li:first-of-type{
+  border-top: none;
+}
+
+nav span{
+  opacity: 0%;
+}
+
+article{
+  margin: 15px;
+}
+
+#Mas_informacion a{
+  color: #fff;
+}
+
+#Mas_informacion a:active{
+  color: #F4D35E;
+}
+
+
+code{
+  display: block;
+  text-align: left;
+  white-space: pre;
+  font-size: 1.1em;
+  background-color: #353535 ;
+  padding: 1em;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+.top-code, .top-terminal{
+  width: 100%;
+  background-color: #464646;
+  border-radius: 5px 5px 0 0;
+  padding: 2px 1em;
+  font-size: .9em;   
+}
+
+
+
+.top-code::before{
+  content: 'Python';
+}
+.top-terminal::before{
+  content: 'Terminal';
+}
+
+.reserved{
+  color: #EE964B;
+}
+
+.function{
+  color: #28AFB0;
+}
+
+.brackets{
+  color: #FF66B3;
+}
+
+.type{
+  color: #F4D35E;
+}
+
+.variable{
+  color: #FFF;
+}
+
+.parameter{
+  color: #FFF8;
+}
+
+.comentary{
+  color: #FFF6;
+}
+
+.text{
+  color: #7FD8BE;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.sharp{
+  opacity: 100%;
+  font-size: 1.3em;
+  position: relative;
+  top: 3px;
+  color: #F4D35E;
+  text-decoration: none;
+}
+
+header:hover{
+  .sharp{
+    opacity: 100%;
+  }
+}
+
+.sharp:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+nav  ::-webkit-scrollbar {
+  width: 7px;
+  background-color: #0002;
+  border-radius: 6px;
+}
+
+nav  ::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+
+@media only screen and (max-width:768px){
+  nav{
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+    
+  }
+
+  nav ul{
+    border-top: solid 3px #0002;
+    border-bottom: solid 3px #0002;
+  }
+
+  main{
+    margin-left: 0;
+    margin-top: 310px;
+    width: 100%;
+  }
+
+ 
+}
