@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Documentación de Python</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduccion_#">Introduccion <span>#</span></a></li>
+        <li><a class="nav-link" href="#Que_es_Python_#">Que es Python <span>#</span></a></li>
+        <li><a class="nav-link" href="#Por_que_usar_Python_#">Por que usar Python <span>#</span></a></li>
+        <li><a class="nav-link" href="#Hola_Mundo_#">Hola Mundo <span>#</span></a></li>
+        
+        <li><a class="nav-link" href="#Variables_y_tipos_de_datos_#">Variables y tipos de datos <span>#</span></a></li>
+        <li><a class="nav-link" href="#Estructuras_de_control_#">Estructuras de control <span>#</span></a></li>
+        <li><a class="nav-link" href="#Bucles_#">Bucles <span>#</span></a></li>
+        <li><a class="nav-link" href="#Funciones_#">Funciones <span>#</span></a></li>
+        <li><a class="nav-link" href="#Listas_y_tuplas_#">Listas y tuplas <span>#</span></a></li>
+        <li><a class="nav-link" href="#Mas_informacion">Mas informacion</a></li>
+        
+      </ul>
+    </nav>
+    <main id="main-doc">
+      
+      <section id="Introduccion_#" class="main-section">
+        <header >Introduccion <a class="sharp" href="#Introduccion_#">#</a></header>
+        <article>
+          <p>Python es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.</p>
+        </article>
+      </section>
+
+      <section id="Que_es_Python_#" class="main-section">
+        <header >Que es Python <a class="sharp" href="#Que_es_Python_#">#</a></header>
+        <article>
+          <p>Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Fue creado a finales de la década de 1980 por Guido van Rossum y su desarrollo continuó a lo largo de los años con la contribución de una comunidad activa de desarrolladores. Python se caracteriza por tener una sintaxis clara y legible que favorece la legibilidad y la facilidad de aprendizaje. Es un lenguaje multiparadigma, lo que significa que soporta diferentes estilos de programación, incluyendo la programación orientada a objetos, la programación imperativa y la programación funcional. Python es conocido por su amplia gama de aplicaciones, que van desde el desarrollo web y la ciencia de datos hasta la automatización de tareas y el desarrollo de aplicaciones de escritorio.</p>
+        </article>
+      </section>
+
+      <section id="Por_que_usar_Python_#" class="main-section">
+        <header >Por que usar Python <a class="sharp" href="#Por_que_usar_Python_#">#</a></header>
+        <article>
+          <p>Hay varias razones por las que Python es una opción popular entre los desarrolladores:</p>
+          <ul>
+            <li><span class="bold">Sintaxis clara y legible:</span> Python tiene una sintaxis simple y fácil de entender que favorece la legibilidad del código, lo que facilita su mantenimiento y colaboración entre equipos de desarrollo.</li>
+            <li><span class="bold">Amplia biblioteca estándar:</span> Python cuenta con una amplia biblioteca estándar que proporciona una gran cantidad de módulos y funciones para realizar tareas comunes, lo que reduce la necesidad de escribir código desde cero y acelera el desarrollo de aplicaciones.</li>
+            <li><span class="bold">Gran comunidad y soporte:</span> Python tiene una gran comunidad de desarrolladores que contribuyen con bibliotecas, tutoriales y recursos educativos. Esto significa que siempre hay ayuda disponible en línea y una amplia gama de bibliotecas y herramientas disponibles para satisfacer diversas necesidades de desarrollo.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="Hola_Mundo_#" class="main-section">
+        <header>Hola Mundo <a class="sharp" href="#Hola_Mundo_#">#</a></header>
+        <article>
+          <p>Para comenzar hagamos una práctica sencilla, imprimamos "Hola Mundo" en nuestra consola</p>
+          <p>Empieza por abrir tu editor de código e ingresa el siguiente código: </p>
+          
+            <div class="top-code"></div>
+            <code><span class="function">print<span class="brackets">(<span class="text">"Hola Mundo"</span>)</span></span></code>
+        
+        
+          <p>Podrás ver lo siguiente en la terminal:</p>
+          <div class="top-terminal"></div>
+          <code class="consola">Hola Mundo</code>
+       </article>
+      </section>
+
+      
+
+      <section id="Variables_y_tipos_de_datos_#" class="main-section">
+        <header >Variables y tipos de datos <a class="sharp" href="#Variables_y_tipos_de_datos_#">#</a></header>
+        <article>
+          <p>Las variables son contenedores que se utilizan para almacenar datos en la memoria de un programa. En Python, no es necesario declarar el tipo de una variable antes de usarla; el intérprete de Python automáticamente asigna el tipo apropiado en función del valor asignado. Los tipos de datos comunes en Python incluyen enteros, flotantes, cadenas y booleanos.</p>
+          <div class="top-code"></div>
+          <code>nombre <span class="reserved">=</span> <span class="text">"María"</span>
+  edad <span class="reserved">=</span> <span class="type">30</span>
+  altura <span class="reserved">=</span> <span class="type">1.65</span>
+  es_estudiante <span class="reserved">=</span> <span class="type">False</span>
+          </code>
+
+          <p>En este ejemplo, nombre es una variable de tipo cadena que almacena el nombre "María", edad es una variable de tipo entero que almacena la edad 30, altura es una variable de tipo flotante que almacena la altura 1.65, y es_estudiante es una variable booleana que almacena False.</p>
+        </article>
+      </section>
+
+      <section id="Estructuras_de_control_#" class="main-section">
+        <header >Estructuras de control <a class="sharp" href="#Estructuras_de_control_#">#</a></header>
+        <article>
+        <p>Las estructuras de control como <span class="reserved">if</span>, <span class="reserved">else</span> y <span class="reserved">elif</span> se utilizan para tomar decisiones en un programa. Permiten ejecutar diferentes bloques de código según se cumplan ciertas condiciones.</p>
+
+        <div class="top-code"></div>
+        <code>puntaje <span class="reserved">=</span> <span class="type">85</span>
+<span class="reserved">if <span class="variable">puntaje</Span> = <span class="type">90</span>:</span>
+    <span class="function">print<span class="brackets">(<span class="text">"Excelente"</span>)</span></span>
+<span class="reserved">elif <span class="variable">puntaje</span>= <span class="type">70</span>:</span>
+    <span class="function">print<span class="brackets">(<span class="text">"Buen trabajo"</span>)</span></span>
+<span class="reserved">else:</span>
+    <span class="function">print<span class="brackets">(<span class="text">"Necesita mejorar"</span>)</span></span>
+        </code>
+
+        <div class="top-terminal"></div>
+        <code>Buen trabajo</code>
+        <p>En este ejemplo, se evalúa el puntaje obtenido y se imprime un mensaje diferente dependiendo de su valor.</p>
+        </article>
+      </section>
+
+      <section id="Bucles_#" class="main-section">
+        <header>Bucles <a class="sharp" href="#Bucles_#">#</a></header>
+        <article>
+        <p>Los bucles for y while se utilizan para repetir un bloque de código varias veces. El bucle for es útil cuando se conoce el número exacto de iteraciones, mientras que el bucle while se usa cuando la condición de finalización no es conocida de antemano.</p>
+        <div class="top-code"></div>
+        <code><span class="reserved">for</span> <span class="variable">i</span> <span class="reserved">in</span> <span class="function">range<span class="brackets">(<span class="type">5</span>)</span></span>:
+    <span class="function">print<span class="brackets">(<span class="variable">i</span>)</span></span>
+        </code>
+
+        <div class="top-terminal"></div>
+        <code>0
+1
+2
+3
+4       </code>
+
+        <div class="top-code"></div>
+        <code>contador <span class="reserved">= <span class="type">0</span>
+while</span> <span class="variable">contador <span class="reserved">< <span class="type">5</span>:</span>
+    <span class="function">print<span class="brackets">(<span class="variable">contador</span>)</span></span>
+    <span class="variable">contador</span> <span class="reserved">+=</span> <span class="type">1</span></code></span>
+    
+    <div class="top-terminal"></div>
+    <code>0
+1
+2
+3
+4       </code>
+
+        <p>El bucle for itera sobre una secuencia (en este caso, range(5)) y ejecuta el bloque de código para cada elemento en esa secuencia. El bucle while ejecuta el bloque de código repetidamente mientras se cumpla una condición específica.</p>
+        </article>
+      </section>
+
+      <section id="Funciones_#" class="main-section">
+        <header >Funciones <a class="sharp" href="#Funciones_#">#</a></header>
+        <article>
+        <p>Las funciones son bloques de código reutilizables que realizan una tarea específica. Permiten modularizar el código y evitar la repetición de código.</p>
+        <div class="top-code"></div>
+        <code><span class="reserved">def <span class="function">suma</span><span class="brackets">(<span class="parameter">a<span class="variable">,</span>b</span>)</span>:</span>
+    <span class="reserved">return</span> <span class="variable">a <span class="reserved">+</span> b</span>
+
+resultado <span class="reserved">=</span> <span class="function">suma<span class="brackets">(<span class="type">3<span class="variable">,</span> 5</span>)</span></span>
+<span class="function">print<span class="brackets">(<span class="variable">resultado</span>)</span></span></code>
+
+        <div class="top-terminal"></div>
+        <code>8</code>
+
+        <p>En este ejemplo, se define una función llamada suma que toma dos parámetros y devuelve la suma de ellos. Luego, se llama a la función con argumentos específicos y se imprime el resultado.</p>
+        </article>
+      </section>
+      <section id="Listas_y_tuplas_#" class="main-section">
+        <header >Listas y tuplas <a class="sharp" href="#Listas_y_tuplas_#">#</a></header>
+        <article>
+        <p>Las listas y las tuplas son estructuras de datos que se utilizan para almacenar múltiples elementos en una sola variable. Las listas son mutables, lo que significa que pueden modificarse después de su creación, mientras que las tuplas son inmutables y no pueden cambiarse una vez creadas.</p>
+        
+        <div class="top-code"></div>
+        <code><span class="comentary"># Lista</span>
+numeros <span class="reserved">=</span> <span class="brackets">[<span class="type">1, 2, 3, 4, 5</span>]</span>
+
+<span class="comentary"># Tupla</span>
+colores <span class="reserved">=</span> <span class="brackets">(<span class="text">"rojo", "verde", "azul"</span>)</span>
+</code>
+        </article>
+      </section>
+
+      <section id="Mas_informacion" class="main-section">
+        <header >Mas informacion</header>
+        <article>
+
+        <ul>
+          <li><a href="https://docs.python.org/3/index.html">Python Docs</a></li>
+          <li><a href="https://www.w3schools.com/python/">W3 School</a></li>
+        </ul>
+        </article>
+      </section>
+      
+    </main>
+  </body>
+</html>
