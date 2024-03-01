@@ -83,9 +83,6 @@ article{
   color: #F4D35E;
 }
 
-code, .top-code, .top-terminal{
-  margin: 0 auto;
-}
 code{
   display: block;
   text-align: left;
