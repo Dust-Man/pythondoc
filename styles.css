@@ -95,12 +95,12 @@ code{
   padding: 1em;
   border-radius: 0 0 5px 5px;
   margin-bottom: 1rem;
-  width: 70%;
+  width: 60%;
   overflow: auto;
 }
 
 .top-code, .top-terminal{
-  width: 70%;
+  width: 60%;
   background-color: #464646;
   border-radius: 5px 5px 0 0;
   padding: 2px 1em;
