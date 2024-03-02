@@ -92,16 +92,18 @@ code{
   padding: 1em;
   border-radius: 0 0 5px 5px;
   margin-bottom: 1rem;
-  width: 60%;
+  width: 612px;
   overflow: auto;
+  margin-left: 30px;
 }
 
 .top-code, .top-terminal{
-  width: 60%;
+  width: 612px;
   background-color: #464646;
   border-radius: 5px 5px 0 0;
   padding: 2px 1em;
   font-size: .9em;   
+  margin-left: 30px;
 }
 
 
@@ -181,7 +183,7 @@ nav  ::-webkit-scrollbar-thumb {
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
   nav{
     position: absolute;
     z-index: 1;
@@ -207,7 +209,15 @@ nav  ::-webkit-scrollbar-thumb {
 
   code, .top-code, .top-terminal{
     width: 100%;
+    margin-left: 0;
   }
 
  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  code, .top-code, .top-terminal{
+    width: 100%;
+    margin-left: 0;
+  }
 }
