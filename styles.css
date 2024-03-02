@@ -3,11 +3,12 @@
 }
 
 body,html{
-   font-family: "Nunito", sans-serif;
-    margin: 0;
+ font-family: "Nunito", sans-serif;
+  margin: 0;
   width: 0;
   background-color: #39375B;
   color: #fff;
+  overflow-x: hidden;
 }
 
 main{
